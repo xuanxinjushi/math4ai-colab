@@ -86,11 +86,42 @@ These notebooks are generated from the book's companion snippets; edits made her
 | [Pseudo-Inverse and Least Squares](chapter-08/pseudoinverse-ls.ipynb) | Solve overdetermined systems via A^+ and visualize residuals. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-08/pseudoinverse-ls.ipynb) |
 | [Conditioning Through Singular Values](chapter-08/singular-conditioning.ipynb) | Inspect condition number and sensitivity as smallest singular value changes. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-08/singular-conditioning.ipynb) |
 
+## Chapter 9: Matrix Decompositions and Beyond
+
+| Demo | What it shows | |
+|---|---|---|
+| [Polar Decomposition Explorer](chapter-09/polar-decomposition.ipynb) | Split a matrix into orthogonal and symmetric factors and inspect reconstruction. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-09/polar-decomposition.ipynb) |
+| [Schur Form Intuition](chapter-09/schur-form.ipynb) | Relate eigenvalues to triangular Schur form entries for 2x2 examples. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-09/schur-form.ipynb) |
+| [Jordan Sensitivity Toy Model](chapter-09/jordan-sensitivity.ipynb) | Show how nearly defective matrices react strongly to small perturbations. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-09/jordan-sensitivity.ipynb) |
+| [Matrix Function via Eigenvalues](chapter-09/matrix-function-eigs.ipynb) | Compare f(A) from spectral mapping with direct series-style intuition. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-09/matrix-function-eigs.ipynb) |
+
 ## Chapter 10: Matrix Block Partitioning
 
 | Demo | What it shows | |
 |---|---|---|
+| [Block Matrix Multiplication](chapter-10/block-multiplication.ipynb) | Verify block-product rules against elementwise multiplication results. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-10/block-multiplication.ipynb) |
+| [Schur Complement Lens](chapter-10/schur-complement.ipynb) | Inspect how eliminating one block yields Schur complement updates. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-10/schur-complement.ipynb) |
+| [Block Gaussian Elimination](chapter-10/block-elimination.ipynb) | Follow elimination steps on a 2x2 block system and track residuals. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-10/block-elimination.ipynb) |
+| [Woodbury Identity Playground](chapter-10/woodbury.ipynb) | Compare direct inverse update with Woodbury low-rank formula. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-10/woodbury.ipynb) |
 | [Tiled Softmax Attention](chapter-10/tiled-softmax.ipynb) | Online softmax over key/value blocks (the FlashAttention idea) matches full attention exactly. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-10/tiled-softmax.ipynb) |
+
+## Chapter 11: Matrix Calculus
+
+| Demo | What it shows | |
+|---|---|---|
+| [Gradient Field and Descent Direction](chapter-11/gradient-field.ipynb) | Visualize gradients as vectors and compare with steepest-descent steps. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-11/gradient-field.ipynb) |
+| [Jacobian Chain Rule Explorer](chapter-11/jacobian-chain.ipynb) | Compose two vector maps and compare direct Jacobian with chain-rule product. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-11/jacobian-chain.ipynb) |
+| [Hessian Curvature Lens](chapter-11/hessian-curvature.ipynb) | Inspect eigenvalues of Hessian to classify local curvature and conditioning. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-11/hessian-curvature.ipynb) |
+| [Second-Order Taylor Approximation](chapter-11/taylor-second-order.ipynb) | Compare exact function values with local second-order Taylor expansion around a chosen point. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-11/taylor-second-order.ipynb) |
+
+## Chapter 12: Optimization Methods
+
+| Demo | What it shows | |
+|---|---|---|
+| [Gradient Descent Step Size Explorer](chapter-12/gd-stepsize.ipynb) | Inspect convergence or divergence of gradient descent as learning rate changes. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-12/gd-stepsize.ipynb) |
+| [Newton vs Gradient Descent](chapter-12/newton-vs-gd.ipynb) | Compare first-order and second-order updates on a curved one-dimensional objective. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-12/newton-vs-gd.ipynb) |
+| [Projected Gradient on Box Constraint](chapter-12/projected-gradient.ipynb) | Show unconstrained steps followed by projection onto a feasible interval. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-12/projected-gradient.ipynb) |
+| [Duality Gap Toy Problem](chapter-12/duality-gap.ipynb) | Visualize primal and dual objectives and the effect of strong duality conditions. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-12/duality-gap.ipynb) |
 
 ## Chapter 19: Stochastic Differential Equations
 
