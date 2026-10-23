@@ -227,3 +227,21 @@ These notebooks are generated from the book's companion snippets; edits made her
 | [Langevin to Stationary Density](chapter-21/langevin-stationary.ipynb) | Simulate many particles and compare terminal histogram with Boltzmann stationary density. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-21/langevin-stationary.ipynb) |
 | [Heat Equation Smoothing](chapter-21/heat-smoothing.ipynb) | Forward diffusion broadens density and increases entropy over time. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-21/heat-smoothing.ipynb) |
 | [SDE and Probability Flow ODE Match](chapter-21/sde-ode-match.ipynb) | Compare distribution evolution under stochastic SDE and deterministic probability-flow ODE. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-21/sde-ode-match.ipynb) |
+
+## AI & ML Foundations: Neural networks and backpropagation
+
+| Demo | What it shows | |
+|---|---|---|
+| [Neuron and Activation Functions](ml/neuron-activation.ipynb) | One neuron y = phi(w x + b): how weight, bias and the activation (sigmoid, tanh, ReLU, GELU) shape the output and its gradient. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/neuron-activation.ipynb) |
+| [MLP Curve Fitting](ml/mlp-fit.ipynb) | Train a one-hidden-layer network in the browser and watch wider layers fit a curve better. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/mlp-fit.ipynb) |
+| [Backpropagation on a Computation Graph](ml/backprop-graph.ipynb) | Forward values and backward gradients node by node for a tiny network, checked against finite differences. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/backprop-graph.ipynb) |
+| [Vanishing and Exploding Gradients](ml/vanishing-gradients.ipynb) | Gradient size layer by layer in a deep network: sigmoid vs ReLU, and how the initialization scale decides whether signals survive. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/vanishing-gradients.ipynb) |
+
+## AI & ML Foundations: Attention and Transformers
+
+| Demo | What it shows | |
+|---|---|---|
+| [Scaled Dot-Product Attention](ml/attention.ipynb) | softmax(Q K^T / sqrt(d)) V as a heatmap, and why the sqrt(d) keeps softmax from saturating. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/attention.ipynb) |
+| [Causal Masking](ml/causal-mask.ipynb) | Hide future tokens with a -inf mask and see each row of attention renormalize over the past only. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/causal-mask.ipynb) |
+| [Multi-Head Attention](ml/multi-head.ipynb) | Split the model width into heads: each head attends with its own projections and finds a different pattern. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/multi-head.ipynb) |
+| [Transformer Block: Residuals and LayerNorm](ml/transformer-block.ipynb) | Stack blocks with and without residual connections and LayerNorm and track how the signal and its gradient survive depth. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/transformer-block.ipynb) |
