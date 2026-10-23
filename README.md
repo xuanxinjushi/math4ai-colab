@@ -245,3 +245,24 @@ These notebooks are generated from the book's companion snippets; edits made her
 | [Causal Masking](ml/causal-mask.ipynb) | Hide future tokens with a -inf mask and see each row of attention renormalize over the past only. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/causal-mask.ipynb) |
 | [Multi-Head Attention](ml/multi-head.ipynb) | Split the model width into heads: each head attends with its own projections and finds a different pattern. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/multi-head.ipynb) |
 | [Transformer Block: Residuals and LayerNorm](ml/transformer-block.ipynb) | Stack blocks with and without residual connections and LayerNorm and track how the signal and its gradient survive depth. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/transformer-block.ipynb) |
+
+## AI & ML Foundations: Embeddings and retrieval
+
+| Demo | What it shows | |
+|---|---|---|
+| [Similarity Search and Ranking Metrics](ml/similarity-ranking.ipynb) | Rank items by cosine similarity to a query and score the ranking with P@K, R@K and Average Precision (Chapters 1 and 14). | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/similarity-ranking.ipynb) |
+| [SVD Embeddings](ml/svd-embedding.ipynb) | Embed the rows of a rating matrix as U_k Sigma_k: similar items land together and inner products are kept (Chapter 8). | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/svd-embedding.ipynb) |
+
+## AI & ML Foundations: Convolutional networks
+
+| Demo | What it shows | |
+|---|---|---|
+| [Convolution and Translation Equivariance](ml/conv-equivariance.ipynb) | Shared weights make convolution commute with shifts; per-position weights break it (Chapter 6). | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/conv-equivariance.ipynb) |
+| [Pooling Gradients](ml/pooling-gradients.ipynb) | Max pooling sends the gradient only to each window's maximum; average pooling spreads it evenly (Chapter 11). | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/pooling-gradients.ipynb) |
+
+## AI & ML Foundations: Optimizers
+
+| Demo | What it shows | |
+|---|---|---|
+| [Optimizers in an Ill-Conditioned Valley](ml/optimizers-valley.ipynb) | Gradient descent, momentum and Adam on a narrow valley; rotate it and Adam's per-axis scaling stops helping (Chapters 1, 11, 20). | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/optimizers-valley.ipynb) |
+| [Muon's Newton-Schulz Orthogonalization](ml/muon-newton-schulz.ipynb) | Q <- Q(3I - Q^T Q)/2 drives every singular value to 1, giving the polar factor Muon uses as its update (Chapters 8, 11). | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/ml/muon-newton-schulz.ipynb) |
