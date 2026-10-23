@@ -123,6 +123,22 @@ These notebooks are generated from the book's companion snippets; edits made her
 | [Projected Gradient on Box Constraint](chapter-12/projected-gradient.ipynb) | Show unconstrained steps followed by projection onto a feasible interval. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-12/projected-gradient.ipynb) |
 | [Duality Gap Toy Problem](chapter-12/duality-gap.ipynb) | Visualize primal and dual objectives and the effect of strong duality conditions. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-12/duality-gap.ipynb) |
 
+## Chapter 13: Probability and Random Variables
+
+| Demo | What it shows | |
+|---|---|---|
+| [Multivariate Gaussian Visualizer](chapter-13/multivariate-gaussian.ipynb) | Explore how mean and covariance shape a 2D Gaussian density. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-13/multivariate-gaussian.ipynb) |
+| [Distribution Gallery](chapter-13/distribution-gallery.ipynb) | Interactive PMFs and PDFs for Uniform, Bernoulli, Binomial, Categorical, Gaussian, Beta, Dirichlet, and GMM. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-13/distribution-gallery.ipynb) |
+| [Bayes Rule Diagnostic Test](chapter-13/bayes-test.ipynb) | See how base rate, sensitivity, and specificity determine posterior probability. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-13/bayes-test.ipynb) |
+| [Law of Large Numbers Simulator](chapter-13/lln.ipynb) | Track empirical means converging to expectation as sample size grows. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-13/lln.ipynb) |
+| [Central Limit Theorem Demo](chapter-13/clt.ipynb) | Observe normalized sample means approach a Gaussian distribution. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-13/clt.ipynb) |
+| [ROC Curve & AUC Explorer](chapter-13/roc-auc.ipynb) | Sweep a classifier threshold to trace TPR vs FPR and read AUC. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-13/roc-auc.ipynb) |
+| [Binomial PMF & CDF](chapter-13/pmf-cdf.ipynb) | Compare binomial probability mass with the cumulative step function. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-13/pmf-cdf.ipynb) |
+| [Joint vs Marginal PMF](chapter-13/joint-marginal.ipynb) | Heatmap a discrete joint table and inspect row/column marginals. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-13/joint-marginal.ipynb) |
+| [Independence Checker](chapter-13/independence.ipynb) | Contrast a 2×2 joint PMF with the independence product P(X)P(Y). | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-13/independence.ipynb) |
+| [Change of Variables](chapter-13/change-of-variables.ipynb) | Uniform→Exponential (1D) and linear pushforward of a bivariate Gaussian with Jacobian factor. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-13/change-of-variables.ipynb) |
+| [Normalizing Flow (1D Affine)](chapter-13/normalizing-flow.ipynb) | Chain two affine layers on N(0,1); exact density via cumulative log|det J|. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-13/normalizing-flow.ipynb) |
+
 ## Chapter 19: Stochastic Differential Equations
 
 | Demo | What it shows | |
