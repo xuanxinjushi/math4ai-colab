@@ -58,11 +58,33 @@ These notebooks are generated from the book's companion snippets; edits made her
 | [Determinant from Triangular Factors](chapter-05/det-triangular.ipynb) | Connect det(A) with diagonal products of triangular factors. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-05/det-triangular.ipynb) |
 | [Forward and Back Substitution](chapter-05/forward-backward.ipynb) | Solve Ly=b then Ux=y and compare with direct solve. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-05/forward-backward.ipynb) |
 
+## Chapter 6: Geometric Transformation and Eigen Decomposition
+
+| Demo | What it shows | |
+|---|---|---|
+| [Linear Transform of Unit Circle](chapter-06/unit-circle-transform.ipynb) | Map the unit circle by a 2x2 matrix and inspect stretching and rotation. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-06/unit-circle-transform.ipynb) |
+| [Eigenvector Direction Check](chapter-06/eigenvector-check.ipynb) | Test candidate directions and see when Av stays collinear with v. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-06/eigenvector-check.ipynb) |
+| [Power Iteration Convergence](chapter-06/power-iteration.ipynb) | Iterate x_{k+1}=Ax_k/||Ax_k|| and track dominant eigenvector convergence. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-06/power-iteration.ipynb) |
+| [Diagonalization Recomposition](chapter-06/diagonalization.ipynb) | Rebuild A as PDP^{-1} and inspect reconstruction error. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-06/diagonalization.ipynb) |
+
 ## Chapter 7: Symmetric Matrix
 
 | Demo | What it shows | |
 |---|---|---|
+| [Quadratic Form Geometry](chapter-07/quadratic-form.ipynb) | Visualize x^T A x level behavior for 2x2 symmetric matrices. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-07/quadratic-form.ipynb) |
+| [Spectral Theorem Explorer](chapter-07/spectral-theorem.ipynb) | Inspect orthonormal eigenvectors and diagonalization of symmetric matrices. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-07/spectral-theorem.ipynb) |
+| [Positive Definiteness Check](chapter-07/positive-definite.ipynb) | Track eigenvalue and principal-minor conditions for SPD behavior. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-07/positive-definite.ipynb) |
+| [Rayleigh Quotient Bounds](chapter-07/rayleigh-bounds.ipynb) | See how x^T A x / x^T x stays between minimum and maximum eigenvalues. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-07/rayleigh-bounds.ipynb) |
 | [Spectral Clustering and the Fiedler Vector](chapter-07/spectral-clustering.ipynb) | Normalized graph Laplacian of two linked clusters; the Fiedler vector's signs split the graph. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-07/spectral-clustering.ipynb) |
+
+## Chapter 8: Singular Value Decomposition (SVD)
+
+| Demo | What it shows | |
+|---|---|---|
+| [SVD Geometry of Unit Circle](chapter-08/svd-geometry.ipynb) | Decompose a 2x2 map into rotation-stretch-rotation and track image axes. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-08/svd-geometry.ipynb) |
+| [Low-Rank Approximation Error](chapter-08/low-rank-error.ipynb) | Compare Frobenius error of rank-k truncations from singular values. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-08/low-rank-error.ipynb) |
+| [Pseudo-Inverse and Least Squares](chapter-08/pseudoinverse-ls.ipynb) | Solve overdetermined systems via A^+ and visualize residuals. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-08/pseudoinverse-ls.ipynb) |
+| [Conditioning Through Singular Values](chapter-08/singular-conditioning.ipynb) | Inspect condition number and sensitivity as smallest singular value changes. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-08/singular-conditioning.ipynb) |
 
 ## Chapter 10: Matrix Block Partitioning
 
