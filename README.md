@@ -139,6 +139,33 @@ These notebooks are generated from the book's companion snippets; edits made her
 | [Change of Variables](chapter-13/change-of-variables.ipynb) | Uniform→Exponential (1D) and linear pushforward of a bivariate Gaussian with Jacobian factor. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-13/change-of-variables.ipynb) |
 | [Normalizing Flow (1D Affine)](chapter-13/normalizing-flow.ipynb) | Chain two affine layers on N(0,1); exact density via cumulative log|det J|. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-13/normalizing-flow.ipynb) |
 
+## Chapter 14: Information Theory
+
+| Demo | What it shows | |
+|---|---|---|
+| [Entropy of a Categorical Distribution](chapter-14/entropy-categorical.ipynb) | Simplex heatmap, probability partition, and −p_i log p_i decomposition for 3-class entropy. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-14/entropy-categorical.ipynb) |
+| [KL Direction Explorer](chapter-14/kl-direction.ipynb) | Compare KL(p||q) and KL(q||p) for two one-dimensional Gaussian distributions. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-14/kl-direction.ipynb) |
+| [Mutual Information in Correlated Gaussian](chapter-14/mutual-info-gaussian.ipynb) | See mutual information increase with correlation strength. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-14/mutual-info-gaussian.ipynb) |
+| [ELBO Components and Beta Weight](chapter-14/elbo-components.ipynb) | Explore the β-VAE trade-off: reconstruction vs KL penalty, with waterfall decomposition and ELBO vs β. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-14/elbo-components.ipynb) |
+
+## Chapter 15: Bellman Equations and Operators
+
+| Demo | What it shows | |
+|---|---|---|
+| [Bellman Backup on 3-State MDP](chapter-15/bellman-backup.ipynb) | Apply one-step Bellman expectation updates and inspect residuals state-by-state. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-15/bellman-backup.ipynb) |
+| [Contraction Mapping Visualizer](chapter-15/contraction.ipynb) | See geometric error decay under repeated Bellman operator applications. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-15/contraction.ipynb) |
+| [Value Iteration vs Policy Iteration](chapter-15/vi-vs-pi.ipynb) | Compare convergence speed and policy stability for value iteration and policy iteration. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-15/vi-vs-pi.ipynb) |
+| [Policy Evaluation Linear Solve](chapter-15/policy-evaluation.ipynb) | Contrast iterative policy evaluation with closed-form linear-system solution. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-15/policy-evaluation.ipynb) |
+
+## Chapter 16: Variational Inference and Latent Variables
+
+| Demo | What it shows | |
+|---|---|---|
+| [ELBO Decomposition Explorer](chapter-16/elbo-decomposition.ipynb) | Decompose ELBO into expected log-likelihood and KL with a beta weight. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-16/elbo-decomposition.ipynb) |
+| [KL Direction: Mode-Seeking vs Mode-Covering](chapter-16/kl-direction.ipynb) | Compare reverse KL and forward KL on a bimodal target with a unimodal variational family. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-16/kl-direction.ipynb) |
+| [Reparameterization Trick Sampler](chapter-16/reparameterization.ipynb) | Sample z = mu + sigma * epsilon and observe how gradients can flow through mu and sigma. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-16/reparameterization.ipynb) |
+| [Posterior Collapse Dial](chapter-16/posterior-collapse.ipynb) | See how increasing beta can shrink latent usage toward the prior in a toy VAE objective. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-16/posterior-collapse.ipynb) |
+
 ## Chapter 19: Stochastic Differential Equations
 
 | Demo | What it shows | |
