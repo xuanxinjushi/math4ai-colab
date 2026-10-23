@@ -213,4 +213,17 @@ These notebooks are generated from the book's companion snippets; edits made her
 
 | Demo | What it shows | |
 |---|---|---|
+| [Gradient Descent to ODE](chapter-20/gd-to-ode.ipynb) | Compare discrete gradient descent iterates with the continuous gradient-flow trajectory. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-20/gd-to-ode.ipynb) |
+| [Probability Flow ODE vs SDE](chapter-20/pf-ode-vs-sde.ipynb) | One deterministic and one stochastic evolution under shared drift parameters. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-20/pf-ode-vs-sde.ipynb) |
+| [Linear ODE Discretization Methods](chapter-20/discretization-methods.ipynb) | Euler, exact zero-order hold, and Tustin updates for the same stable linear system. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-20/discretization-methods.ipynb) |
+| [Stability Region Explorer](chapter-20/stability-region.ipynb) | See when discrete step size destabilizes a continuous stable mode. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-20/stability-region.ipynb) |
 | [Flow Matching](chapter-20/flow-matching.ipynb) | Straight training paths, curved non-crossing flow: the exact flow matching velocity carries noise to a 3-mode target. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-20/flow-matching.ipynb) |
+
+## Chapter 21: Fokker-Planck and Distribution Dynamics
+
+| Demo | What it shows | |
+|---|---|---|
+| [Probability Current Decomposition](chapter-21/probability-current.ipynb) | Visualize drift and diffusion contributions to Fokker-Planck probability current. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-21/probability-current.ipynb) |
+| [Langevin to Stationary Density](chapter-21/langevin-stationary.ipynb) | Simulate many particles and compare terminal histogram with Boltzmann stationary density. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-21/langevin-stationary.ipynb) |
+| [Heat Equation Smoothing](chapter-21/heat-smoothing.ipynb) | Forward diffusion broadens density and increases entropy over time. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-21/heat-smoothing.ipynb) |
+| [SDE and Probability Flow ODE Match](chapter-21/sde-ode-match.ipynb) | Compare distribution evolution under stochastic SDE and deterministic probability-flow ODE. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-21/sde-ode-match.ipynb) |
