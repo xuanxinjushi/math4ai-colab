@@ -166,6 +166,21 @@ These notebooks are generated from the book's companion snippets; edits made her
 | [Reparameterization Trick Sampler](chapter-16/reparameterization.ipynb) | Sample z = mu + sigma * epsilon and observe how gradients can flow through mu and sigma. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-16/reparameterization.ipynb) |
 | [Posterior Collapse Dial](chapter-16/posterior-collapse.ipynb) | See how increasing beta can shrink latent usage toward the prior in a toy VAE objective. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-16/posterior-collapse.ipynb) |
 
+## Chapter 17: Score Function and Energy-Based Models
+
+| Demo | What it shows | |
+|---|---|---|
+| [Univariate Gaussian Score](chapter-17/gaussian-score-1d.ipynb) | PDF, log PDF tangents, and score s(x) for a 1D Gaussian. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-17/gaussian-score-1d.ipynb) |
+| [2D Gaussian Score Field](chapter-17/gaussian-score.ipynb) | Score vectors as gradients of log-density for a 2D Gaussian. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-17/gaussian-score.ipynb) |
+| [Energy, Density, and Score](chapter-17/three-views.ipynb) | Linked triple view: double-well energy, p∝e^{−E}, and score field. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-17/three-views.ipynb) |
+| [Circle Manifold Density](chapter-17/manifold-density.ipynb) | Density concentrated on the unit circle; on vs off manifold. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-17/manifold-density.ipynb) |
+| [Mixture Score Field](chapter-17/mixture-score.ipynb) | Gaussian-mixture score field bending between two modes. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-17/mixture-score.ipynb) |
+| [DSM S-Curve Manifold](chapter-17/dsm-scurve.ipynb) | Noisy samples and denoising score vectors on an S-curve. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-17/dsm-scurve.ipynb) |
+| [DSM Circle Manifold](chapter-17/dsm-circle.ipynb) | Denoising score matching on the unit circle. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-17/dsm-circle.ipynb) |
+| [DSM Univariate Gaussian](chapter-17/dsm-gaussian.ipynb) | Clean vs noisy marginal and closed-form denoising score. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-17/dsm-gaussian.ipynb) |
+| [Energy to Probability](chapter-17/energy-to-probability.ipynb) | Convert a customizable 1D energy landscape to normalized density. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-17/energy-to-probability.ipynb) |
+| [Score Matching Toy Objective](chapter-17/score-matching.ipynb) | Compare true vs model score and the squared mismatch objective. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-17/score-matching.ipynb) |
+
 ## Chapter 19: Stochastic Differential Equations
 
 | Demo | What it shows | |
