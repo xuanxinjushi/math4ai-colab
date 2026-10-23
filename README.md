@@ -181,6 +181,19 @@ These notebooks are generated from the book's companion snippets; edits made her
 | [Energy to Probability](chapter-17/energy-to-probability.ipynb) | Convert a customizable 1D energy landscape to normalized density. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-17/energy-to-probability.ipynb) |
 | [Score Matching Toy Objective](chapter-17/score-matching.ipynb) | Compare true vs model score and the squared mismatch objective. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-17/score-matching.ipynb) |
 
+## Chapter 18: Langevin Dynamics and Sampling
+
+| Demo | What it shows | |
+|---|---|---|
+| [Optimization vs Sampling](chapter-18/opt-vs-sampling.ipynb) | Gradient ascent vs Langevin dynamics on a 2D Gaussian mixture. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-18/opt-vs-sampling.ipynb) |
+| [1D Langevin Gaussian](chapter-18/langevin-1d.ipynb) | Convergence of Langevin dynamics to N(0,1) with live histogram. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-18/langevin-1d.ipynb) |
+| [Metropolis–Hastings MCMC](chapter-18/metropolis-hastings.ipynb) | Sample a bimodal distribution with random-walk Metropolis–Hastings. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-18/metropolis-hastings.ipynb) |
+| [ULA vs MALA](chapter-18/mala.ipynb) | Unadjusted vs Metropolis-adjusted Langevin on the same target. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-18/mala.ipynb) |
+| [SGLD vs SGD](chapter-18/sgld.ipynb) | Stochastic gradient Langevin dynamics for mini-batch Bayesian learning. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-18/sgld.ipynb) |
+| [Trace Plot & Histogram](chapter-18/trace-histogram.ipynb) | Burn-in, mixing, and empirical density for a double-well target. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-18/trace-histogram.ipynb) |
+| [2D Gaussian Mixture Langevin](chapter-18/mixture-2d.ipynb) | Score-based Langevin sampling on a two-mode 2D density. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-18/mixture-2d.ipynb) |
+| [Particle Cloud Evolution](chapter-18/particle-cloud.ipynb) | Many particles spreading under Langevin dynamics (Fokker–Planck preview). | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xuanxinjushi/math4ai-colab/blob/main/chapter-18/particle-cloud.ipynb) |
+
 ## Chapter 19: Stochastic Differential Equations
 
 | Demo | What it shows | |
